@@ -7,7 +7,7 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Aire urbaine de Charlotte">
       <customproperties/>
-      <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="tl_2017_us_primaryroads20180407155432510" source="/home/chopina04/SIG_data/Terminale/SIG_Charlotte/tl_2017_us_primaryroads.shp" name="Axes routiers principaux">
+      <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="tl_2017_us_primaryroads20180407162047357" source="/home/chopina04/SIG_data/Terminale/SIG_Charlotte/tl_2017_us_primaryroads.shp" name="Axes routiers principaux">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Aire_Urbaine_Charlotte_NC_SC20180406184717700" source="/home/chopina04/SIG_data/Terminale/Charlotte/Aire_Urbaine_Charlotte_NC-SC.shp" name="Aire urbaine de Charlotte (NC-SC)">
@@ -40,10 +40,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-81.02708829585739636</xmin>
-      <ymin>34.92687496073498465</ymin>
-      <xmax>-80.57713127085739302</xmax>
-      <ymax>35.51036626073486246</ymax>
+      <xmin>-81.00072517817000062</xmin>
+      <ymin>34.96067541217578167</ymin>
+      <xmax>-80.60309805317001519</xmax>
+      <ymax>35.46276756217577741</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -63,6 +63,8 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Aire_Urbaine_Charlotte_NC_SC20180406184717700"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Census_Tracts_Aire_Urbaine_Charlotte_NC_SC_vdef20180407154123017"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tl_2017_us_primaryroads220180407162008906"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tl_2017_us_primaryroads20180407162047357"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Début_émeutes20180406183817802"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Census_Tracts_Aire_Urbaine_Charlotte_NC_SC_v120180406184536800"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Census_Tracts_Aire_Urbaine_Charlotte_NC_SC_v120180406184250497"/>
@@ -83,7 +85,7 @@
       <item>Point_de_départ_des_manifestations20180407152941287</item>
       <item>Mort_de_Keith_Lamont_Scott20180406185327413</item>
       <item>Aire_Urbaine_Charlotte_NC_SC20180406184717700</item>
-      <item>tl_2017_us_primaryroads20180407155432510</item>
+      <item>tl_2017_us_primaryroads20180407162047357</item>
       <item>Census_Tracts_Aire_Urbaine_Charlotte_NC_SC_vdef20180407154123017</item>
       <item>Census_Tracts_Aire_Urbaine_Charlotte_NC_SC20180407154232623</item>
     </custom-order>
@@ -92,7 +94,7 @@
     <legendgroup open="true" checked="Qt::Checked" name="Aire urbaine de Charlotte">
       <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="Axes routiers principaux" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tl_2017_us_primaryroads20180407155432510" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tl_2017_us_primaryroads20180407162047357" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="2" open="true" checked="Qt::Checked" name="Aire urbaine de Charlotte (NC-SC)" showFeatureCount="0">
@@ -208,7 +210,7 @@
             <customproperties>
               <property key="legend/title-style" value="group"/>
             </customproperties>
-            <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="tl_2017_us_primaryroads20180407155432510" source="/home/chopina04/SIG_data/Terminale/SIG_Charlotte/tl_2017_us_primaryroads.shp" name="Axes routiers principaux">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="tl_2017_us_primaryroads20180407155432510" name="Axes routiers principaux">
               <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Aire_Urbaine_Charlotte_NC_SC20180406184717700" source="/home/chopina04/SIG_data/Terminale/Charlotte/Aire_Urbaine_Charlotte_NC-SC.shp" name="Aire urbaine de Charlotte (NC-SC)">
@@ -2311,12 +2313,12 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
-        <xmin>-158.10418200000000866</xmin>
-        <ymin>17.98216899999999896</ymin>
-        <xmax>-65.64865899999998078</xmax>
-        <ymax>49.00208800000000053</ymax>
+        <xmin>-81.86144399999999166</xmin>
+        <ymin>34.24245599999999001</ymin>
+        <xmax>-80.04068900000000042</xmax>
+        <ymax>36.25046499999999128</ymax>
       </extent>
-      <id>tl_2017_us_primaryroads20180407155432510</id>
+      <id>tl_2017_us_primaryroads20180407162047357</id>
       <datasource>./tl_2017_us_primaryroads.shp</datasource>
       <keywordList>
         <value></value>
@@ -2552,7 +2554,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2578,7 +2579,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="LINEARID" index="0" name=""/>
         <alias field="FULLNAME" index="1" name=""/>
@@ -2597,10 +2598,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -2708,11 +2709,11 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>Aire_Urbaine_Charlotte_NC_SC20180406184717700</value>
+        <value>Census_Tracts_Aire_Urbaine_Charlotte_NC_SC20180407154232623</value>
+        <value>Census_Tracts_Aire_Urbaine_Charlotte_NC_SC_vdef20180407154123017</value>
         <value>Mort_de_Keith_Lamont_Scott20180406185327413</value>
         <value>Point_de_départ_des_manifestations20180407152941287</value>
-        <value>Census_Tracts_Aire_Urbaine_Charlotte_NC_SC_vdef20180407154123017</value>
-        <value>Census_Tracts_Aire_Urbaine_Charlotte_NC_SC20180407154232623</value>
-        <value>tl_2017_us_primaryroads20180407155432510</value>
+        <value>tl_2017_us_primaryroads20180407162047357</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
